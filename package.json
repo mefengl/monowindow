@@ -2,7 +2,7 @@
   "name": "monowindow",
   "displayName": "MonoWindow",
   "version": "0.0.1",
-  "description": "Adds a button to merge all tabs.",
+  "description": "Adds a button to merge all window tabs.",
   "categories": [
     "Other"
   ],
