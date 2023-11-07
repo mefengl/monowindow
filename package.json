@@ -1,12 +1,17 @@
 {
+  "publisher": "mefengl",
   "name": "monowindow",
   "displayName": "MonoWindow",
   "version": "0.0.1",
   "description": "Adds a button to merge all window tabs.",
+  "author": "mefengl",
+  "license": "MIT",
+  "repository": "https://github.com/mefengl/vscode-monowindow",
   "categories": [
     "Other"
   ],
   "main": "./extension.js",
+  "icon": "res/icon.png",
   "engines": {
     "vscode": "^1.84.0"
   },
