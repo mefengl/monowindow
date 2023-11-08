@@ -2,7 +2,7 @@
   "publisher": "mefengl",
   "name": "monowindow",
   "displayName": "MonoWindow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds a button to merge all window tabs.",
   "author": "mefengl",
   "license": "MIT",
