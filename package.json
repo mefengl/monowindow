@@ -23,8 +23,28 @@
       {
         "command": "monowindow.mergeAllWindowTabs",
         "title": "Merge All Tabs"
+      },
+      {
+        "command": "monowindow.toggleAutoMonowindow",
+        "title": "Toggle Auto MonoWindow"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "MonoWindow",
+      "properties": {
+        "monowindow.showMergeButton": {
+          "type": "boolean",
+          "default": false,
+          "description": "Show the button to merge all window tabs."
+        },
+        "monowindow.showToggleAutoButton": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the button to toggle auto monowindow mode."
+        }
+      }
+    }
   },
   "scripts": {
     "lint": "eslint .",
