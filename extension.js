@@ -52,12 +52,10 @@ function activate(context) {
     if (autoMonowindowInterval) {
       clearInterval(autoMonowindowInterval)
       autoMonowindowInterval = null
-      vscode.window.showInformationMessage('Auto MonoWindow deactivated.')
     } else {
       autoMonowindowInterval = setInterval(() => {
         vscode.commands.executeCommand('workbench.action.mergeAllWindowTabs')
       }, 1000);
-      vscode.window.showInformationMessage('Auto MonoWindow activated.')
     }
     updateStatusItem();
   });
